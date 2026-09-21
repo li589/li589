@@ -30,7 +30,7 @@ _独立开发者 · 喜欢把想法做成好用的工具_
 | [ai-capability-hub](https://github.com/li589/ai-capability-hub) | 跨 6 款 AI 编码工具整合的 3,510 个能力包，公开检索与下载 | 前端 · CSS |
 | [Clawdroid](https://github.com/li589/Clawdroid) ![⭐](https://img.shields.io/github/stars/li589/Clawdroid?style=flat&color=gold)| Android 8–16 上基于 Root 与无障碍的 AI 代理自动化框架 | Kotlin |
 | [nova-nexus](https://github.com/li589/nova-nexus) | 星海智能国际站：多模型统一调用 + 全流程 AI 短剧网页工作台 | HTML · JS |
-| [SmartNoteGen](https://github.com/li589/SunoAuxTool) | 本地 AI 音乐生成 与 音乐可视化制作：MIDI 生成 → FluidSynth 渲染 → WAV/MP3 导出 | Python |
+| [SunoAuxTool](https://github.com/li589/SunoAuxTool) | 本地 AI 音乐生成前后期辅助工具 与 音乐可视化制作：MIDI与谱面 生成 + 可视化CIL + 后期AI音质修复 | Python |
 | [WebGIS](https://github.com/li589/WebGIS) | CGDA：综合地理数据分析与 WebGIS 可视化系统 | Python |
 | [The-Rites-of-Zhou](https://github.com/li589/The-Rites-of-Zhou) ![⭐](https://img.shields.io/github/stars/li589/The-Rites-of-Zhou?style=flat&color=gold) | 整活向：大模型把现代话转成「合乎周礼」的文言文（fork 自 wenyan-web，修复 Gemini 崩溃、新增提示词管理） | HTML · Python |
 
