@@ -1,6 +1,6 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=3500&pause=600&color=F5C2E7&center=true&vCenter=true&width=640&lines=Python+%2F+PyQt6+%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7%E5%BC%80%E5%8F%91;LLM+%E5%BA%94%E7%94%A8+%26+AI+%E7%9F%AD%E5%89%A7%E5%B7%A5%E4%BD%9C%E5%8F%B0;%E9%9F%B3%E9%A2%91+%2F+WebGIS+%2F+Android+%E8%87%AA%E5%8A%A8%E5%8C%96)
+![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=3500&pause=600&color=F5C2E7&center=true&vCenter=true&width=680&lines=C%2B%2B20+%2F+Flutter+%E8%B7%A8%E5%B9%B3%E5%8F%B0%E9%9F%B3%E9%A2%91+DSP;Python+%2F+PyQt6+%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7;LLM+%E5%BA%94%E7%94%A8+%26+AI+%E7%9F%AD%E5%89%A7%E5%B7%A5%E4%BD%9C%E5%8F%B0;WebGIS+%2F+Android+%E8%87%AA%E5%8A%A8%E5%8C%96)
 
 ### 👋 Hi, I'm Kr li（@li589）
 
@@ -15,29 +15,39 @@ _独立开发者 · 喜欢把想法做成好用的工具_
 
 ## 🧑‍💻 关于我
 
-- 🎵 **音频工具**：Sndcpy++（PyQt6 无线音频投送）、SmartNoteGen（本地 AI 音乐生成，MIDI → FluidSynth → WAV/MP3）
+- 🎧 **音频 DSP**：AuraDSP（跨平台全局音频效果系统，Flutter UI + 自研 C++20 引擎，接管系统音频链路做实时处理）
+- 🎵 **音频工具**：Sndcpy++（PyQt6 无线音频投送）、SunoAuxTool（AI 音乐前后期工具箱，已上 PyPI）
 - 🤖 **AI 应用**：多模型统一调用、全流程 AI 短剧工作台、LLM 轨迹预测、MiniMax 海螺脚本
 - 🤳 **Android 自动化**：Clawdroid（基于 Root + 无障碍的 AI 代理框架）、LSPosedFix
 - 🗺️ **地理数据**：CGDA WebGIS 可视化分析、高德 / 百度 POI 搜索
-- 🎭 **整活娱乐**：《合乎周礼》——大模型把现代话转成「合乎周礼」的文言文，抖音同款整活（fork 自 wenyan-web 并完善）
-- ⚙️ **日常栈**：Python · PyQt6 · Kotlin · JavaScript · PowerShell
+- 🎭 **整活娱乐**：《合乎周礼》——大模型把现代话转成「合乎周礼」的文言文（fork 自 wenyan-web 并完善）
+- ⚙️ **日常栈**：C++20 · Flutter · Python · PyQt6 · Kotlin · JavaScript · PowerShell
+
+## 🔥 最近在忙
+
+- **AuraDSP v0.5.0** — Linux 移植一期合入 `dev`（PR #21），ALSA 直连专家模式 + VST3/CLAP 插件宿主全量落地，CI 八 job 全绿，Ubuntu 24.04 真机验证通过
+- **SunoAuxTool** — 打包发布到 PyPI，`pip install sunoauxtool` 即可用
+- **CGDA WebGIS** — 三维地球昼夜（terminator）渲染改用 WebGL custom layer 重写，持续打磨多视口 / 多时段视觉一致性
 
 ## 🚀 精选项目
 
 | 项目 | 简介 | 技术栈 |
 | --- | --- | --- |
+| [AuraDSP](https://github.com/li589/AuraDSP) ![⭐](https://img.shields.io/github/stars/li589/AuraDSP?style=flat&color=gold) | 跨平台全局音频效果系统：23 个 DSP 处理单元 + VST3/CLAP 插件宿主，Windows / Linux / Android | C++20 · Flutter · Kotlin |
 | [sndcpypp](https://github.com/li589/sndcpypp) ![⭐](https://img.shields.io/github/stars/li589/sndcpypp?style=flat&color=gold) | Sndcpy++：更稳定顺手的 Sndcpy 替代品，无线音频投送 | Python · PyQt6 |
-| [ai-capability-hub](https://github.com/li589/ai-capability-hub) | 跨 6 款 AI 编码工具整合的 3,510 个能力包，公开检索与下载 | 前端 · CSS |
-| [Clawdroid](https://github.com/li589/Clawdroid) ![⭐](https://img.shields.io/github/stars/li589/Clawdroid?style=flat&color=gold)| Android 8–16 上基于 Root 与无障碍的 AI 代理自动化框架 | Kotlin |
-| [nova-nexus](https://github.com/li589/nova-nexus) | 星海智能国际站：多模型统一调用 + 全流程 AI 短剧网页工作台 | HTML · JS |
-| [SunoAuxTool](https://github.com/li589/SunoAuxTool) | 本地 AI 音乐生成前后期辅助工具 与 音乐可视化制作：MIDI与谱面 生成 + 可视化CIL + 后期AI音质修复 | Python |
-| [WebGIS](https://github.com/li589/WebGIS) | CGDA：综合地理数据分析与 WebGIS 可视化系统 | Python |
+| [WebGIS](https://github.com/li589/WebGIS) ![⭐](https://img.shields.io/github/stars/li589/WebGIS?style=flat&color=gold) | CGDA：综合地理数据分析与 WebGIS 可视化系统 · [在线体验](https://geoflow.cgdas.dpdns.org/) | Python · Vue3 · WebGL |
+| [SunoAuxTool](https://github.com/li589/SunoAuxTool) ![⭐](https://img.shields.io/github/stars/li589/SunoAuxTool?style=flat&color=gold) | AI 音乐前后期工具箱：生成 / 谱面 / 互转 + 下载 / 转码 / DSP / 音质增强（[PyPI](https://pypi.org/project/sunoauxtool/)） | Python |
+| [nova-nexus](https://github.com/li589/nova-nexus) ![⭐](https://img.shields.io/github/stars/li589/nova-nexus?style=flat&color=gold) | 星海智能国际站：多模型统一调用 + 全流程 AI 短剧网页工作台 | HTML · JS |
+| [ai-capability-hub](https://github.com/li589/ai-capability-hub) ![⭐](https://img.shields.io/github/stars/li589/ai-capability-hub?style=flat&color=gold) | 跨 6 款 AI 编码工具整合的 3,510 个能力包，公开检索与下载 | 前端 · CSS |
+| [Clawdroid](https://github.com/li589/Clawdroid) ![⭐](https://img.shields.io/github/stars/li589/Clawdroid?style=flat&color=gold) | Android 8–16 上基于 Root 与无障碍的 AI 代理自动化框架 | Kotlin |
 | [The-Rites-of-Zhou](https://github.com/li589/The-Rites-of-Zhou) ![⭐](https://img.shields.io/github/stars/li589/The-Rites-of-Zhou?style=flat&color=gold) | 整活向：大模型把现代话转成「合乎周礼」的文言文（fork 自 wenyan-web，修复 Gemini 崩溃、新增提示词管理） | HTML · Python |
 
-> 还有 TracePredict、POI-Mini-Search、mat-visualizer、LSPosedFix、AI_Web 等项目 → [查看全部仓库](https://github.com/li589?tab=repositories)
+> 还有 TracePredict、POI-Mini-Search、mat-visualizer、LSPosedFix、fontdrvhost-crash-toolkit、AI_Web 等项目 → [查看全部仓库](https://github.com/li589?tab=repositories)
 
 ## 🛠️ 技术栈
 
+[![C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://github.com/li589)
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://github.com/li589)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/li589)
 [![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://github.com/li589)
 [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://github.com/li589)
@@ -79,7 +89,7 @@ _独立开发者 · 喜欢把想法做成好用的工具_
 
 <div align="center">
 
-_如果某个项目对你有帮助，欢迎 ⭐ Star_ · _最后更新：2026-09-08_
+_如果某个项目对你有帮助，欢迎 ⭐ Star_ · _最后更新：2026-11-03_
 
 <img src="https://api.visitorbadge.io/api/visitors?path=li589.profile&label=Profile%20Views&labelColor=%231e1e2e&countColor=%2389b4fa" />
 
